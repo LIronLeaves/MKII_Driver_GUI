@@ -1,3 +1,6 @@
+// Author: Lars Eisenblaetter, KIT(IPE)
+// 01.07.2022: initial setup of empty project
+
 package com.example.mkiidrivergui
 
 import android.os.Bundle

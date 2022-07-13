@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/control" />
             <option value="$PROJECT_DIR$/control/mode_lowgain" />
             <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core_ui" />
           </set>
         </option>
       </GradleProjectSettings>

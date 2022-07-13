@@ -54,7 +54,7 @@ dependencies {
     implementation(Compose.ui)
     implementation(Compose.uiToolingPreview)
     implementation(Compose.hiltNavigationCompose)
-    implementation(Compose.material)
+    implementation(Compose.material3)
     implementation(Compose.runtime)
     implementation(Compose.navigation)
     implementation(Compose.viewModelCompose)
@@ -64,12 +64,13 @@ dependencies {
     kapt(DaggerHilt.hiltCompiler)
 
     implementation(project(Modules.core))
+    implementation(project(Modules.core_ui))
     implementation(project(Modules.controlLowGain))
 
     implementation(AndroidX.coreKtx)
     implementation(AndroidX.appCompat)
 
-    implementation(Google.material)
+    //implementation(Google.material)
     implementation(Google.material3)
 
     testImplementation(Testing.junit4)

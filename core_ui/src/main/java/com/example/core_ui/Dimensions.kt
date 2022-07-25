@@ -22,7 +22,15 @@ data class Dimensions(
 
     val elevationLow: Dp = 4.dp,
     val elevationMedium: Dp = 8.dp,
-    val elevationHigh: Dp = 16.dp
+    val elevationHigh: Dp = 16.dp,
+
+    val smallBar: Dp =56.dp,
+    val mediumBar: Dp =64.dp,
+    val largeBar: Dp =72.dp,
+
+    val smallTouchTarget: Dp = 48.dp,
+    val mediumTouchTarget: Dp = 56.dp,
+    val largeTouchTarget: Dp = 64.dp
 )
 
 val LocalSpacing = compositionLocalOf { Dimensions() }
